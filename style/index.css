@@ -46,6 +46,7 @@ header{
 button{
     background-color: #84DCC6;
     border: none;
+    border-radius: 25px;
     padding: 15px 20px;
 }
 a{
