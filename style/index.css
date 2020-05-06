@@ -43,6 +43,11 @@ header{
     justify-content: space-evenly;
 
 }
+button{
+    background-color: #84DCC6;
+    border: none;
+    padding: 15px 20px;
+}
 a{
     text-decoration: none;
     color: #84DCC6;
