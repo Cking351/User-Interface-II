@@ -18,6 +18,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
     vertical-align: baseline;
+    font-family: 'Montserrat', sans-serif;
 }
 *{
     box-sizing: border-box;
@@ -27,4 +28,17 @@ body{
 }
 section{
     padding: 4% 0;
+}
+h1{
+    font-size: 2rem;
+}
+.primary{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.about{
+    display: flex;
+    flex-flow: row wrap;
+    
 }
