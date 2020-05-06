@@ -35,6 +35,7 @@ h1{
 }
 header{
     background-color: #FF686B;
+    /* background-image: linear-gradident(to right, #FF686B, #FFA69E); */
     padding: 3%;
 }
 .primary{
@@ -54,6 +55,23 @@ a:hover{
     flex-flow: row wrap;
     
 }
+.main{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
 footer{
-    background-color: #70CAD1;
+    background-color: #FF686B;
+    display: flex;
+    justify-content: center;
+    padding: 3%;
+
+}
+.contact{
+    align-self: center;
+
+
+}
+.img5 .img6 .img7 .img8{
+
 }
