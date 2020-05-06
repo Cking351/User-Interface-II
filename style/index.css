@@ -25,6 +25,7 @@ time, mark, audio, video {
 }
 body{
     line-height: 1.5;
+    background-color: #FFFFFF;
 }
 section{
     padding: 4% 0;
@@ -32,13 +33,27 @@ section{
 h1{
     font-size: 2rem;
 }
+header{
+    background-color: #FF686B;
+    padding: 3%;
+}
 .primary{
     display: flex;
     justify-content: space-evenly;
 
 }
+a{
+    text-decoration: none;
+    color: #84DCC6;
+}
+a:hover{
+    color:#A5FFD6;
+}
 .about{
     display: flex;
     flex-flow: row wrap;
     
+}
+footer{
+    background-color: #70CAD1;
 }
