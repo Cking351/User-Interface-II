@@ -30,6 +30,9 @@ body{
 section{
     padding: 4% 0;
 }
+p{
+    margin: 3%;
+}
 h1{
     font-size: 2rem;
 }
@@ -106,7 +109,7 @@ footer{
     justify-content: center;
     padding: 3%;
     flex-direction: column;
-    padding: 3%;
+    
 
 }
 .contact{
@@ -115,4 +118,9 @@ footer{
 }
 .contact-link{
     font-size: 1.3rem;
+}
+#end{
+    padding: 0%;
+    padding-top: 0%;
+    padding-bottom: 0%;
 }
