@@ -88,7 +88,7 @@ justify-content: center;
 display: flex;
 align-items: flex-start;
 justify-items: space-evenly;
-width: 18%;
+width: 100%;
 }
 .about3{
 display: flex;
@@ -109,22 +109,46 @@ font-size: 1.5rem;
 footer{
     background-color: #FF686B;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     padding: 3%;
-    flex-direction: column;
+    flex-flow: column wrap;
     
 
 }
 .contact{
     align-self: center;
-    align-items: flex-end;
+    justify-items: center;
 }
 .contact-link{
     font-size: 1.3rem;
+    display: flex;
+    align-self: center;
+}
+.socialmedia{
+    display: flex;
+    padding-top: 5%;
+}
+.twitter{
+    padding-right: 5%;
+}
+.facebook{
+    padding-right: 5%;
 }
 #end{
     padding: 0%;
 }
+
+@media(max-width:1060px){
+    .about{
+    display: flex;
+    flex-flow: column-reverse wrap;
+    align-content: center;
+    }
+    .about1{
+        align-content: flex-start;
+    }
+}
+
 
 @media(max-width:800px){
     .about{
@@ -134,6 +158,9 @@ footer{
     .about1{
         align-self: center;
         order: 3;   
+ }
+ .about2{
+     width: 100%;
  }
  .main{
      flex-flow: column wrap;
