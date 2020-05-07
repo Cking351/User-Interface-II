@@ -23,6 +23,9 @@ time, mark, audio, video {
 *{
     box-sizing: border-box;
 }
+#screenreader{
+    display: none;
+}
 body{
     line-height: 1.5;
     background-color: #FFFFFF;
@@ -142,6 +145,14 @@ footer{
 }
 @media(max-width:500px){
     header{
-        width: auto;
+        width: 100%;
+    }
+    .about2{
+        align-self: flex-start;
+        width: 100%;
+    }
+    .about3{
+        align-self: center;
+        
     }
 }
