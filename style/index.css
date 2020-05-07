@@ -110,10 +110,8 @@ footer{
     background-color: #FF686B;
     display: flex;
     justify-content: space-evenly;
-    padding: 3%;
-    flex-flow: column wrap;
-    
-
+    padding: 2%;
+    flex-flow: column nowrap;
 }
 .contact{
     align-self: center;
@@ -123,17 +121,13 @@ footer{
     font-size: 1.3rem;
     display: flex;
     align-self: center;
+    margin: 10%;
 }
 .socialmedia{
     display: flex;
     padding-top: 5%;
 }
-.twitter{
-    padding-right: 5%;
-}
-.facebook{
-    padding-right: 5%;
-}
+
 #end{
     padding: 0%;
 }
